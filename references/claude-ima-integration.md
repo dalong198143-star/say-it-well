@@ -26,7 +26,7 @@ D:\hermes-tools\python\Python311\Scripts\fastmcp.exe run ima_server_simple.py:mc
 在 Claude Code 对话中或终端执行：
 
 ```bash
-claude mcp add ima --transport http --url http://127.0.0.1:8081/mcp
+claude mcp add --transport http ima http://127.0.0.1:8081/mcp
 ```
 
 验证连接：
